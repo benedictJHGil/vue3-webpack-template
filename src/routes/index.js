@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from './Home'
-import About from './About'
+import Home from '~/views/Home'
+import About from '~/views/About'
 
 export default createRouter({
     // Hash, History(서버 세팅 필요)
